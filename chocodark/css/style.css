@@ -1,0 +1,326 @@
+:root {
+    --button-color: #FFDA32;
+    --main-color: #7BBCB0;
+    --footer-color: #13253F;
+}
+
+.h1 {
+    font-size: 48px;
+}
+.h2{
+    font-size: 36px;
+}
+.volkhov-regular {
+    font-family: "Volkhov", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.volkhov-bold {
+    font-family: "Volkhov", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.volkhov-regular-italic {
+    font-family: "Volkhov", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.volkhov-bold-italic {
+    font-family: "Volkhov", serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.mulish-semibold-16 {
+    font-family: "Mulish", sans-serif;
+    font-weight: 600;
+    font-size: 16;
+}
+
+.mulish-semibold-15 {
+    font-family: "Mulish", sans-serif;
+    font-weight: 600;
+    font-size: 15;
+}
+
+.mulish-semibold-14 {
+    font-family: "Mulish", sans-serif;
+    font-weight: 600;
+    font-size: 14;
+}
+
+.mulish-semibold-12{
+    font-family: "Mulish", sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    color: #778088;
+}
+
+.mulish-extrabold-16 {
+    font-family: "Mulish", sans-serif;
+    font-weight: 800;
+    font-size: 16;
+}
+
+.mulish-extrabold-15 {
+    font-family: "Mulish", sans-serif;
+    font-weight: 800;
+    font-size: 16;
+}
+
+.mulish-bold-20 {
+    font-weight: 700;
+    font-family: "Mulish", sans-serif;
+    font-size: 20;
+}
+
+.mulish-bold-14{
+
+    font-weight: 700;
+    font-family: "Mulish", sans-serif;
+    font-size: 14;
+}
+.btn-submit {
+    height: 50px;
+    background-color: var(--button-color);
+    width: 140px;
+    border-radius: 3px;
+}
+
+.tag-name-color {
+    color: var(--main-color);
+    margin-left: 10px;
+}
+
+/* header */
+.header-full {
+    background-image: url('../imgs/bg-sec1.png');
+    background-repeat: no-repeat;
+    height: 740px;
+    background-size: cover;
+    position: relative;
+}
+
+.nav-bar {
+    display: flex;
+    height: 90px;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.ul-btn {
+    display: flex;
+    align-items: center;
+    width: 688px;
+    justify-content: space-between;
+}
+
+.nav-bar-menu {
+    display: flex;
+    width: 508px;
+    justify-content: space-between;
+}
+
+.nav-bar-menu li {
+    color: #ffffff;
+}
+
+.find-the-best {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 166px;
+}
+
+.short-des {
+    width: 569px;
+    text-align: center;
+    margin-bottom: 18px;
+    margin-top: 22px;
+}
+
+.play-video {
+    display: flex;
+    align-items: center;
+}
+
+.call-to-action {
+    position: absolute;
+    bottom: -45px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #FFFFFF;
+    height: 90px;
+    border: 1px solid #22222224;
+    border-radius: 10px;
+    box-shadow: 0px 10px 30px #7bbcb0b8;
+}
+
+.part-1 {
+    display: flex;
+}
+
+.part-1 i {
+    margin-top: 5px;
+}
+
+.tag-name {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.inpt {
+    font-family: "Mulish", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.btn-search {
+    width: 150px;
+    height: 54px;
+    background-color: var(--button-color);
+    border-radius: 40px;
+    box-shadow: 0px 8px 20px #FFDA32;
+}
+/* section 2 */
+.popular-city{
+    margin-top: 119px;
+    
+}
+.intro-cities{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.intro-cities p{
+    color: #778088;
+    margin-top: 19px;
+}
+.group-cities{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.btn-city{
+    width: 130px;
+    height: 44px;
+    border: 1px solid #7BBCB0;
+    border-radius: 30px;
+    background-color: #ffffff;
+    color: #495560;
+    margin-right: 5px;
+    margin-left: 5px;  
+}
+button.btn-city:active{
+    background-color: var(--main-color);
+    color: #ffffff;
+}
+button.btn-city:hover{
+    background-color: var(--main-color);
+    color: #ffffff;
+}
+.detail-city{
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    background-image: url(../imgs/bg-sec2.png);
+    background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: 225px;
+}
+.font-64{
+    font-size: 64px;
+}
+.infor-city{
+    position: absolute;
+    top: 420px;
+    right: 30px;
+    background-color: #F9FDFF;
+    border-radius: 3px;
+    width: 1110px;
+    height: 275px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-shadow: 0px 4px 20px #00000055;
+
+}
+.infor-city p:nth-child(2){
+    color: #778088;
+    width: 464px;
+}
+.two{
+    display: flex;
+}
+.tag{
+    width: fit-content;
+    height: 40px;
+    box-shadow: 0px 4px 10px #00000034;
+    border-radius: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.detail-attractives{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    margin-bottom: 107px;
+}
+.item-attractives{
+    background-color: #ffffff;
+    box-shadow: 0px 8px 34px #00000027;
+    width: 270px;
+    height: fit-content;
+    padding-top: 10px;
+    border-radius: 3px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.facility{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.reivew-detail{
+    display: flex;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.trending-attractives{
+    -webkit-mask-image: linear-gradient(90deg, #48057D, #2ADDE7, transparent);
+    mask-image: linear-gradient(90deg, #48057D, #2ADDE7, transparent);
+    background-image: url(../imgs/bg-sec3.png);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 593px;
+}

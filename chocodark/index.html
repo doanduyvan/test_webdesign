@@ -1,14 +1,282 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- reset css -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <!-- style css -->
     <link rel="stylesheet" href="./css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-    <h1>hellp evef
+    <header class="header-full">
+        <nav class="nav-bar">
+            <img src="./imgs/logo-name.png" alt="" style="height: 22px;">
+            <div class="ul-btn">
+                <ul class="nav-bar-menu">
+                    <li class="mulish-semibold-15 "><a href="">Home</a></li>
+                    <li class="mulish-semibold-15 "><a href="">About Us</a></li>
+                    <li class="mulish-semibold-15 "><a href="">Popular Destinations</a></li>
+                    <li class="mulish-semibold-15 "><a href="">Our Packages</a></li>
+                    <li class="mulish-semibold-15 "><a href="">Help</a></li>
+                </ul>
+                <button type="submit" class="btn-submit mulish-extrabold-16">
+                    Sign In
+                </button>
+            </div>
+        </nav>
+        <section class="find-the-best">
+            <h1 class="volkhov-bold h1">
+                We Find The Best Tours For You
+            </h1>
+            <p class="mulish-semibold-16 short-des">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis
+                enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+            </p>
+            <div class="play-video">
+                <img src="./imgs/player-button.png" style="height: 100px; width: 100px; margin-right: 10px" />
+                <p class="mulish-bold-20">Watch Video</p>
+            </div>
+        </section>
+        <section class="call-to-action">
+            <section class="part-1">
+
+                <i class="fa-solid fa-location-dot" style="color: #7BBCB0;"></i>
+                <div class="tag-name">
+                    <p class="mulish-extrabold-15 tag-name-color">Location</p>
+                    <input type="text" name="" id="destination" class="inpt" placeholder="Search For A Destination">
+                </div>
+
+            </section>
+            <section class="part-1">
+                <img src="./imgs/divider.png" alt=""
+                    style="height: 20px; width: 1px; align-self: center; margin-right: 20px">
+                <i class="fa-solid fa-user-group" style="color: #7BBCB0;"></i>
+                <div class="tag-name">
+                    <p class="mulish-extrabold-15 tag-name-color">Guests</p>
+                    <input type="text" name="" id="" class="inpt" placeholder="How many Guests?">
+                </div>
+
+            </section>
+            <section class="part-1">
+                <img src="./imgs/divider.png" alt=""
+                    style="height: 20px; width: 1px; align-self: center; margin-right: 20px">
+                <i class="fa-solid fa-calendar-days" style="color: #7BBCB0;"></i>
+                <div class="tag-name">
+                    <p class="mulish-extrabold-15 tag-name-color">Date</p>
+                    <input type="text" name="" id="" class="inpt" placeholder="Pick a date">
+                </div>
+
+            </section>
+            <button type="submit" class="btn-search mulish-extrabold-16">
+                Search
+            </button>
+        </section>
+    </header>
+    <section class="popular-city">
+        <div class="intro-cities">
+            <h2 class="volkhov-bold h2">
+                Explore Popular Cities
+            </h2>
+            <p class="mulish-semibold-16">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                Velit officia consequat duis enim velit mollit</p>
+        </div>
+        <div class="group-cities">
+            <button type="submit" class="btn-city mulish-bold-14">
+                New York
+            </button>
+            <button type="submit" class="btn-city mulish-bold-14">
+                California
+            </button>
+            <button type="submit" class="btn-city mulish-bold-14">
+                Alaska
+            </button>
+            <button type="submit" class="btn-city mulish-bold-14">
+                Sidney
+            </button>
+            <button type="submit" class="btn-city mulish-bold-14">
+                Dubai
+            </button>
+            <button type="submit" class="btn-city mulish-bold-14">
+                London
+            </button>
+            <button type="submit" class="btn-city mulish-bold-14">
+                Tokyo
+            </button>
+            <button type="submit" class="btn-city mulish-bold-14">
+                Delhi
+            </button>
+        </div>
+        <div class="detail-city">
+            <div class="detail-infor-city">
+                <section class="infor-city">
+                    <div class="infor">
+                        <p class="volkhov-bold font-64">
+                            Alaska
+                        </p>
+                        <p class="mulish-semibold-16">Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                            amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat
+                            sunt nostrud amet.</p>
+                    </div>
+                    <div class="tag-special">
+                        <div class="tag mulish-bold-14" style="color: #D176E0;">
+                            <i class="fa-solid fa-bus" style="color: #D176E0; margin-right: 5px"></i>
+                            Public Transportations
+                        </div>
+                        <div class="two">
+                            <div class="tag mulish-bold-14" style="color: #7BBCB0;">
+                                <img src="./imgs/ic_baseline-travel-explore.png" alt=""
+                                    style="height: 20px; width: 20px; margin-right: 5px">
+                                Nature & Adventure
+                            </div>
+                            <div class="tag mulish-bold-14" style="color: #E4B613;">
+                                <i class="fa-solid fa-taxi" style="color: #E4B613; margin-right: 5px"></i>
+                                Private Transportations
+                            </div>
+                        </div>
+                        <div class="two">
+                            <div class="tag mulish-bold-14" style="color: #FC3131;">
+                                <img src="./imgs/ic_outline-card-travel.png" alt=""
+                                    style="height: 20px; width: 20px; margin-right: 5px">
+                                Business Tours
+                            </div>
+                            <div class="tag mulish-bold-14" style="color: #5C9BDE;">
+                                <img src="./imgs/ic_outline-mode-of-travel.png" alt=""
+                                    style="height: 20px; width: 20px; margin-right: 5px">
+                                Local Visit
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <div class="detail-attractives">
+            <div class="item-attractives">
+                <img src="./imgs/bg-item1.png" alt="" style="width: 250px; height: 180px; margin-left: 10px; margin-bottom: 12px">
+                <p class="volkhov-regular" style="width: 226px; font-size: 16px; margin-left: 20px; margin-bottom: 13px">Alaska: Westminster to Greenwich River Thames</p>
+                <section class="facility mulish-semibold-14">
+                    <img src="./imgs/clock.png" alt="" style="height: 16px; width: 16px; margin-right: 9px; margin-left: 22px">
+                    Duration 2 hours
+                </section>
+                <section class="facility mulish-semibold-14">
+                    <img src="./imgs/car.png" alt="" style="height: 14px; width: 19.7px; margin-right: 7px; margin-left: 22px">
+                    Transport Facility
+                </section>
+                <section class="facility mulish-semibold-14">
+                    <img src="./imgs/family-plan.png" alt="" style="height: 14px; width: 19.1px; margin-right: 7px; margin-left: 22px">
+                    Family Plan
+                </section>
+                <img src="./imgs/divider-item.png" alt="">
+                <section class="reivew-detail">
+                    <div class="rated">
+                        <img src="./imgs/start-item1.png" alt="" style="width: 70px;height: 14px">
+                        <p class="mulish-semibold-12">584 reviews</p>
+                    </div>
+                    <div class="price">
+                        <p class="volkhov-bold" style="margin: 0px; padding: 0px; font-size: 20px; line-height: 20px;color: #7BBCB0">$35.00</p>
+                        <p class="mulish-semibold-12" style="line-height: 14px;">per person</p>
+                    </div>
+                </section>
+            </div>
+            <div class="item-attractives">
+                <img src="./imgs/bg-item2.png" alt="" style="width: 250px; height: 180px; margin-left: 10px; margin-bottom: 12px">
+                <p class="volkhov-regular" style="width: 226px; font-size: 16px; margin-left: 20px; margin-bottom: 13px">Alaska: Vintage Double Decker Bus Tour & Thames </p>
+                <section class="facility mulish-semibold-14">
+                    <img src="./imgs/clock.png" alt="" style="height: 16px; width: 16px; margin-right: 9px; margin-left: 22px">
+                    Duration 2 hours
+                </section>
+                <section class="facility mulish-semibold-14">
+                    <img src="./imgs/car.png" alt="" style="height: 14px; width: 19.7px; margin-right: 7px; margin-left: 22px">
+                    Transport Facility
+                </section>
+                <section class="facility mulish-semibold-14">
+                    <img src="./imgs/family-plan.png" alt="" style="height: 14px; width: 19.1px; margin-right: 7px; margin-left: 22px">
+                    Family Plan
+                </section>
+                <img src="./imgs/divider-item.png" alt="">
+                <section class="reivew-detail">
+                    <div class="rated">
+                        <img src="./imgs/start-item1.png" alt="" style="width: 70px;height: 14px">
+                        <p class="mulish-semibold-12">584 reviews</p>
+                    </div>
+                    <div class="price">
+                        <p class="volkhov-bold" style="margin: 0px; padding: 0px; font-size: 20px; line-height: 20px;color: #7BBCB0">$35.00</p>
+                        <p class="mulish-semibold-12" style="line-height: 14px;">per person</p>
+                    </div>
+                </section>
+            </div>
+            <div class="item-attractives">
+                <img src="./imgs/bg-item3.png" alt="" style="width: 250px; height: 180px; margin-left: 10px; margin-bottom: 12px">
+                <p class="volkhov-regular" style="width: 226px; font-size: 16px; margin-left: 20px; margin-bottom: 13px">Alaska: Magic of London Tour with Afternoon Tea at </p>
+                <section class="facility mulish-semibold-14">
+                    <img src="./imgs/clock.png" alt="" style="height: 16px; width: 16px; margin-right: 9px; margin-left: 22px">
+                    Duration 2 hours
+                </section>
+                <section class="facility mulish-semibold-14">
+                    <img src="./imgs/car.png" alt="" style="height: 14px; width: 19.7px; margin-right: 7px; margin-left: 22px">
+                    Transport Facility
+                </section>
+                <section class="facility mulish-semibold-14">
+                    <img src="./imgs/family-plan.png" alt="" style="height: 14px; width: 19.1px; margin-right: 7px; margin-left: 22px">
+                    Family Plan
+                </section>
+                <img src="./imgs/divider-item.png" alt="">
+                <section class="reivew-detail">
+                    <div class="rated">
+                        <img src="./imgs/start-item1.png" alt="" style="width: 70px;height: 14px">
+                        <p class="mulish-semibold-12">584 reviews</p>
+                    </div>
+                    <div class="price">
+                        <p class="volkhov-bold" style="margin: 0px; padding: 0px; font-size: 20px; line-height: 20px;color: #7BBCB0">$35.00</p>
+                        <p class="mulish-semibold-12" style="line-height: 14px;">per person</p>
+                    </div>
+                </section>
+            </div>
+            <div class="item-attractives">
+                <img src="./imgs/bg-item4.png" alt="" style="width: 250px; height: 180px; margin-left: 10px; margin-bottom: 12px">
+                <p class="volkhov-regular" style="width: 226px; font-size: 16px; margin-left: 20px; margin-bottom: 13px">Alaska: Magic of London Tour with Afternoon Tea at </p>
+                <section class="facility mulish-semibold-14">
+                    <img src="./imgs/clock.png" alt="" style="height: 16px; width: 16px; margin-right: 9px; margin-left: 22px">
+                    Duration 2 hours
+                </section>
+                <section class="facility mulish-semibold-14">
+                    <img src="./imgs/car.png" alt="" style="height: 14px; width: 19.7px; margin-right: 7px; margin-left: 22px">
+                    Transport Facility
+                </section>
+                <section class="facility mulish-semibold-14">
+                    <img src="./imgs/family-plan.png" alt="" style="height: 14px; width: 19.1px; margin-right: 7px; margin-left: 22px">
+                    Family Plan
+                </section>
+                <img src="./imgs/divider-item.png" alt="">
+                <section class="reivew-detail">
+                    <div class="rated">
+                        <img src="./imgs/start-item1.png" alt="" style="width: 70px;height: 14px">
+                        <p class="mulish-semibold-12">584 reviews</p>
+                    </div>
+                    <div class="price">
+                        <p class="volkhov-bold" style="margin: 0px; padding: 0px; font-size: 20px; line-height: 20px; color: #7BBCB0">$35.00</p>
+                        <p class="mulish-semibold-12" style="line-height: 14px;">per person</p>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </section>
+    <section class="trending-attractives">
         
+    </section>
+    <h1 class="text-3xl font-bold underline">
+        Hello World
     </h1>
 </body>
+<script src="https://kit.fontawesome.com/571fdddf15.js" crossorigin="anonymous"></script>
+
 </html>
