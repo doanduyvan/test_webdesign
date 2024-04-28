@@ -1,0 +1,8 @@
+.vscode
+node_modules
+src
+package.json
+package-lock.json
+tailwind.config.js
+tailwind.config-full.js
+public/img/svg
